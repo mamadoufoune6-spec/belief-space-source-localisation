@@ -56,6 +56,15 @@ dataset. It is not required for the analytic examples or fixture-based tests.
 Data-dependent tests explicitly skip when the subset is absent; skipped tests
 are not claimed as passing checks of the real dataset.
 
+The [GitHub Actions workflow](.github/workflows/tests.yml) installs the package
+on Linux with Python 3.12 and runs the full test discovery without downloading
+optional data. Local verification on 3 November 2026 discovered **106 tests:
+101 passed, 5 skipped, 0 failures/errors**. CI prints each skip reason and writes
+actual pass/skip counts and skipped test names to its job summary. The five
+optional-data skips cover four published-data integrity checks and one
+real-map environment check; fixture-based radio-controller tests still run.
+Actions reports the separate CI outcome. This is not a RadioMapSeer benchmark.
+
 See [DATA.md](DATA.md) for the source, expected layout and conventions. No
 third-party radio maps, full historical benchmark output, model weights or
 downloaded research papers are included. This release does not claim that

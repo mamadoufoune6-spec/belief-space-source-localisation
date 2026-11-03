@@ -20,3 +20,14 @@ Only the self-contained example was rerun for its public figure. Historical
 benchmark output and downloaded data are not republished, and their conclusions
 are not reasserted as new results. Research interpretation and further
 experiments remain the researcher's responsibility.
+
+## CI addition, 3 November 2026
+
+At Mamadou's request, Codex authored the GitHub Actions workflow and associated
+README/validation notes. It installs the package, runs existing tests without
+downloading optional RadioMapSeer data, and reports actual passes, failures,
+errors and skips separately in logs and the job summary. Local verification in
+the existing installed project environment reported 101 passes and five
+optional-data skips. The existing source, tests, skip conditions and scientific
+behaviour are unchanged. The workflow does not run research benchmarks or turn
+skipped real-data tests into passing checks.

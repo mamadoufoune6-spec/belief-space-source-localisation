@@ -45,3 +45,19 @@ sensor, stopping/budget logic or scientific parameter was changed for release.
 The only dependency metadata change makes the already-used Pillow import
 explicit. Broader historical benchmarks and experimental research interpretation
 were not rerun or added in this release.
+
+## CI follow-up, 3 November 2026
+
+The existing installed release environment was checked again: 106 discovered,
+101 passed, five optional RadioMapSeer skips, no failures/errors. An initial
+attempt with the global Python interpreter failed imports because the package
+was not installed there; using `.venv/Scripts/python.exe` exercised the installed
+release successfully. CI explicitly installs the package before discovery.
+
+The new Linux/Python 3.12 workflow downloads dependencies but no RadioMapSeer
+data. It reports each skipped test and reason, along with actual counts in the
+job summary, and exits unsuccessfully on test failures/errors. The four data
+integrity tests in `RadioMapSeerDataTests` and the real-map test in
+`PublishedEnvironmentTests` are expected to skip without the optional subset.
+These five skips are not passes or verification of the real dataset. The
+workflow's actual installation/test outcome is reported separately by Actions.
