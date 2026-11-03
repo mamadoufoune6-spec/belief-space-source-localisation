@@ -1,0 +1,142 @@
+{
+  "release_date": "2026-11-03",
+  "description": "Existing project Python files copied byte-for-byte; no scientific behavior changes.",
+  "files": [
+    {
+      "path": "src/belief_search/dcee.py",
+      "sha256": "ccecb22e7af5e47120558e55d6830f977a3c5b2dcbb8b5c7ce309cc0980c5a47"
+    },
+    {
+      "path": "src/belief_search/dcee_bfs.py",
+      "sha256": "67489da799c61f4f3017fb2b9e306fa6855036150d2e8704d342cfcc755339c0"
+    },
+    {
+      "path": "src/belief_search/environment.py",
+      "sha256": "f6a4b634a9acddc7394cdd20ee808d8f33cdb16f3c8f9eebf2ea558c1da1e074"
+    },
+    {
+      "path": "src/belief_search/estimator.py",
+      "sha256": "5c858acb5323ee66bff22ff2a1a670babbf0e6a1205540532651bca050262012"
+    },
+    {
+      "path": "src/belief_search/greedy.py",
+      "sha256": "5000746d860bc398210596e2a81399908e11e0ea26e283bbe7f5eeb556d6bc16"
+    },
+    {
+      "path": "src/belief_search/greedy_episode.py",
+      "sha256": "3a0bd8f3f3fea14062b30145fb57267b0da6008650e66af7ca64b009d1ea3ff6"
+    },
+    {
+      "path": "src/belief_search/information.py",
+      "sha256": "86acf237a0b627012f47e4a9aa82f809d41f2263405b8e973c744cb3732c2118"
+    },
+    {
+      "path": "src/belief_search/oracle.py",
+      "sha256": "6ed39e7bcf020843736c6f61cdfe78fc3b44853965ed0e3f006b797c42fee1c5"
+    },
+    {
+      "path": "src/belief_search/radio_control.py",
+      "sha256": "e50e3e8ddc9e407925341403a5628d64e38bbcb719cd887915d29c9ad1e503ce"
+    },
+    {
+      "path": "src/belief_search/radio_environment.py",
+      "sha256": "f42762de7504f8f8e74f1d7c4709dbbeaa155ca446eafb7ffa1370b65afae502"
+    },
+    {
+      "path": "src/belief_search/radio_episode.py",
+      "sha256": "451928e30c3bb7c51307ec2585674fb0f8af63bb97c3b25fd851c1f674b36b44"
+    },
+    {
+      "path": "src/belief_search/radio_waypoint.py",
+      "sha256": "f8fae079fc61d450618725cfcb28866bcea1fa50963f5f2376530b41149d6e3f"
+    },
+    {
+      "path": "src/belief_search/recording.py",
+      "sha256": "c3149d1afaccc60151c201492206718842cf7b617408870669fbdc3f8e45df82"
+    },
+    {
+      "path": "src/belief_search/sequence.py",
+      "sha256": "057f3a680cfd6044383f1fb7cc32e7201efe994ef08298e30ecb194749835ca3"
+    },
+    {
+      "path": "src/belief_search/types.py",
+      "sha256": "1049cf65f461a8b0ae00e4fb387c584c3949733fe556371ce16b16af28fdc51b"
+    },
+    {
+      "path": "src/belief_search/visualisation.py",
+      "sha256": "79285239e7da86496f48bbd1742390fc6cbf22c62820085a582f33d0f4414119"
+    },
+    {
+      "path": "src/belief_search/__init__.py",
+      "sha256": "899b817895ebad07e74f4827a18a7ff849c36396acae34c9484311a772faa608"
+    },
+    {
+      "path": "tests/test_dcee.py",
+      "sha256": "5e9e426d3c6d3e17198c0010ef1b222d5c6d350fb19ac0cf20faf3958318900e"
+    },
+    {
+      "path": "tests/test_dcee_bfs.py",
+      "sha256": "624aea1c8929b66a73eeb122a1e94b6cf4cf5668c5b92bb8aa22b08fceaf1e07"
+    },
+    {
+      "path": "tests/test_environment.py",
+      "sha256": "17976e0edc66bb8a2cafb8bad4173220ba557fee9ec111669262ec1883af131f"
+    },
+    {
+      "path": "tests/test_estimator.py",
+      "sha256": "ced2dd5cbb5306f29bf1eefd58e1ba74a168268a9c8cf2ad737deb39fd3c84da"
+    },
+    {
+      "path": "tests/test_greedy.py",
+      "sha256": "4a904bbe1fc198ad39b55c39ea9427ca91256b55da6d3faccfaaf7e213acfe03"
+    },
+    {
+      "path": "tests/test_information.py",
+      "sha256": "d1a45c4dbdc8717da884ea5fda22720d04c3fccdcf17e09bbcb626071d600dbd"
+    },
+    {
+      "path": "tests/test_oracle.py",
+      "sha256": "4572bc5cf48aa26df283d8d938d6071e0f2874b49d35c272836bfbbbef38efb1"
+    },
+    {
+      "path": "tests/test_radiomapseer_data.py",
+      "sha256": "1cc0b8ebadc7a248da30d214439ca9fe8df05638a13e9409e64f8e232ae215f1"
+    },
+    {
+      "path": "tests/test_radio_control.py",
+      "sha256": "b969a5613e99df8088e204d9b36d3c1ac546752f9f99b5eb743faa2668b790b1"
+    },
+    {
+      "path": "tests/test_radio_environment.py",
+      "sha256": "5d832d9171840972e145e87ec753876bb8eff6568a863b6138f77b56789047e4"
+    },
+    {
+      "path": "tests/test_radio_waypoint.py",
+      "sha256": "30e14cc3018ef9af5e9cc72c98b6e1e1987db8742b8b17ff5c6c935dd73a5c52"
+    },
+    {
+      "path": "tests/test_sequence.py",
+      "sha256": "7088c0472ea6dcbb26f45a347675b0f5af383e3f01c0f738ced57f59cb0b438c"
+    },
+    {
+      "path": "tests/test_shared_episode.py",
+      "sha256": "301b510ea85fdb15ede724c275fb9ced36978a1df257ae203ee0be378c35afec"
+    },
+    {
+      "path": "tests/test_visualisation.py",
+      "sha256": "19b3b36497a114d1df5e85ec9af8aa5755e258a02d06b6678139880e62a7c274"
+    },
+    {
+      "path": "examples/plot_example.py",
+      "sha256": "f76339aa4af36cf6149bdf95a8a3b89b7b914c4301d91721e4b7d51237aa9855"
+    },
+    {
+      "path": "examples/run_greedy.py",
+      "sha256": "3c54f9788240a5060c54d25b7ea0458473188e0bba891f1079bc1338b9460e2b"
+    },
+    {
+      "path": "examples/information_example.py",
+      "sha256": "845b84809874b133446717456874082c3471a91a7fac9786271416f471059635"
+    }
+  ]
+}
